@@ -1,0 +1,109 @@
+td {
+  border-radius: 5px;
+  background: rgba(240, 232, 216, .9);
+  border: 0 outset rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6), inset 0px 0px 11px rgba(199, 199, 199, 0.9);
+}
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+  border: none;
+  text-align: center;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0.4em;
+}
+.borderless tbody tr td:first-child {
+  width: 1%;
+  background: rgba(240, 232, 216, .9);
+  box-shadow: none;
+}
+.borderless thead {
+  font-size: 1.3em;
+  background: rgba(240, 232, 216, .9);
+}
+.borderless thead tr th {
+  border-radius: 5px;
+}
+.ui-tooltip {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  border-radius: 7px;
+  border: none;
+  background: rgba(250, 233, 225, .9);
+  box-shadow: 0 0 9px rgba(0, 0, 0, .9);
+  max-width: 433px;
+}
+#orar {
+  margin: 9vh 0 0 0;
+  padding: 0;
+  position: absolute;
+  top: 470vh;
+  height: 45vh;
+  width: 60vw;
+  left: 20vw;
+  border: none;
+}
+#orar #week {
+  background: transparent;
+  font-size: 2em;
+  font-weight: bold;
+  /*padding: 4vh;*/
+  color: rgba(233, 233, 233, 0.9);
+  border: 0 outset rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 9px rgba(0, 0, 0, 0.9)
+}
+#orar p {
+  color: rgb(47, 51, 37);
+  background: rgba(240, 232, 216, .9);
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+#orar h1 {
+  font-size: 5em;
+  padding: 4vh;
+  color: rgba(233, 233, 233, 0.9);
+  border: 0 outset rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
+}
+
+#orar .dani{
+  width: 20%;
+  float: left;
+}
+.ui-tooltip figure{
+  width: 44%;
+  float: left;
+  padding: 3%;
+}
+figcaption {
+  padding-top: 3px;
+}
+.ui-tooltip p{
+  padding-top: 2%;
+  font-size: 90%;
+}
+/*figcaption{
+  float: right;
+}*/
+/*.ui-tooltip p::first-line{
+  padding-left: 5%;
+}*/
+
+.hatha {
+  color: rgba(255, 125, 64, 1);
+}
+.power {
+  color: rgba(234, 21, 35, 1);
+}
+.flow {
+  color: rgba(85, 172, 238, 1);
+}
+.senior {
+  color: rgba(186, 41, 188, 1);
+}
+.fit {
+  color: rgba(28, 226, 18, 1);
+}
+.partener {
+  color: rgba(15, 30, 97, 1);
+}
